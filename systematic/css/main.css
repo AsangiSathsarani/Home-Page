@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+
+p {margin-top:15px; margin-bottom:20px; font-size:18px;color:#444;}
+
+a{text-decoration:none; color:red;}
+
+.clearfix{overflow:auto;}
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar{
+	width: 1000px;
+	background: maroon;
+}
+
+.top-bar-links{
+	float: left;
+}
+
+.top-bar-links ul{
+	margin:15px;
+	list-style:none;
+}
+
+.top-bar-links ul li{
+	padding: 0 10px;
+	display:inline-block;
+	border-right:1px solid white;
+}
+
+.top-bar-links ul li:last-child{
+	border:none;
+}
+
+.top-bar-links ul li a{
+	color:white;
+}
+.site-search{
+	padding: 3px 5px 3px 10px;
+	margin:15px;
+	float: right;
+	background:white;
+	border-radius:10px;
+}
+
+.site-search input{
+	border:none;
+	float:left;
+}
+
+.site-search button{
+	width:20px;
+	height:20px;
+	
+	border:0;
+	float:right;
+}
+
+header .logo{float:left;}
+
+header .logo h1{
+	font-size:48px;
+	font-weight:normal;
+	letter-spacing:-1px;
+	font-variant:small-caps;
+}
+
+header .socialmedia{
+	float:right;
+	margin-top:30px;
+}
+
+header .socialmedia ul{
+	list-style:none;
+}
+
+header .socialmedia ul li{
+	display:inline;
+}
+
+header .socialmedia ul li a{
+	padding:6px;
+	background:#444;
+	color:white;
+	display:inline-block;
+	border-radius:20px;
+
+}
+
+header .socialmedia ul li a:hover{
+	background:orange;
+}
+
+nav{
+	margin-top:20px;
+	background:#000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align:center;
+	border-radius:5px;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav ul li {
+	display:inline;
+}
+
+nav ul li a {
+	color:#fff;
+	margin: 10px 40px 10px 40px;
+	display:inline-block;
+	text-transform:uppercase;
+     
+}
+
+nav ul li a:hover{
+	color:red;
+	;
+}
+div.intro {
+	width:970px;
+	margin-bottom:0px;
+	margin:15px;
+}	
+div.intro div.introimage {
+	
+	width:500px;
+	float:left;
+
+}
+
+div.intro div.introimage img {
+	width:450px;
+	float:left;
+	height:500px;
+
+}
+
+div.intro div.introtext {
+	width:400px;
+	float:left;
+}
+
+div.introtext h1 {
+	font-weight:normal;
+	margin-top:100px;
+	font-size:62px;
+	text-transform:uppercase;
+}
+
+div.introtext p {
+	font-size:18px;
+}
+
+div.introtext a {
+	text-transform:uppercase;
+	color:red;
+	float:right;
+}
+
+div.homecontent {
+    padding-bottom:15px;
+	width:1000px;
+	background:#eee;
+	margin-bottom:15px;
+}
+
+div.homecol {
+	margin-left:15px;
+	width:313.33px;
+	float:left;
+
+	
+}
+
+div.homecol h2 {
+	margin: 30px 0px 30px 0px;
+	font-size:30px;
+	font-weight:normal;
+}
+
+div.homecol img{
+	width:313.33px;
+	height:200px;
+}
+
+div.homecol a {
+	float:right;
+}
+div.services img {
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:15px;
+}
+
+div.services p{
+	margin-top:0px;
+}
+
+div.quote {
+	float:left;
+}
+
+div.quote i {
+	float:left;
+	color:#666;
+}
+
+div.quote h3 {
+	margin-top:20px;
+	margin-left:15px;
+	float:left;
+	color:#555;
+}
+
+div.quote p {
+	clear:both;
+}
+
+footer{
+	width:1000px;
+	margin-top:15px;
+	margin-bottom:15px;
+	float:left;
+}
+
+div.footercol {
+	width:231.25px;
+	margin-left:15px;
+	float:left;
+	border-top: 1px solid #000;
+}
+
+div.footercol h4 {
+	color:#444;
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+div.tweet p {
+	font-size:12px;
+	float:left;
+}
+
+ul.quicklinks {
+	list-style:none;
+	margin-top:10px;
+	
+}
+
+ul.quicklinks li {
+	margin-top:10px;
+	border-bottom:1px solid #666;
+	margin-bottom:10px;
+}
+
+ul.quicklinks li a {
+	color:#444;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+	
+}
+
+ul.quicklinks li a::before{
+	content: "» ";
+}
+
+ul.quicklinks li a:hover {
+	color:red;
+}
+
+div.blogpost {
+	float:left;
+}
+
+div.blogpost h5 {
+	font-size:20px;
+}
+ div.blogpost p { 
+ 	font-size:14px;
+ 	color:#444;
+}
+
+div.blogpost a.read {
+	float:right;
+
+}
+div.postinfo {
+	font-size:12pxss;
+}
+
+form.contact input, form.contact textarea {
+	background:#eee;
+	padding:5px;
+	margin-bottom:5px;
+	width:221.25px;
+	border:none;
+	border-radius: 5px;
+	font-family:inherit;
+	font-size: 16px;
+}
+
+form.contact button {
+	background:#eee;
+	color:red;
+	border:none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family:inherit;
+}
+
+div.copyright {
+	background:#eee;
+	float:left;
+    width:1000px;
+    height:50px;
+
+}
+
+div.left{
+	float:left;
+	margin:20px;
+}
+
+div.right{
+	float:right;
+	margin:20px;
+}
